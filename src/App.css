@@ -1,0 +1,137 @@
+
+/* #################*/
+/* Header Component */
+/* #################*/
+
+/* Styling the Header Component */
+
+header {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  padding: 10px;
+  color: white;
+}
+
+/* #################*/
+/* Filter Component */
+/* #################*/
+
+/* Main Filter Component Styles */
+
+.Filter {
+  background-color: #252525;
+}
+.Filter button{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Media Queries for Filter Component */
+/* CSS Flexbox for Button Positioning */
+
+@media only screen and (min-width: 768px) {
+    .Filter {
+      display: flex;
+      justify-content: space-between;
+      height: 50px;
+      padding-top: 10px;
+    }  
+    #Filter1 {
+      width: 50%;
+    }   
+    #Filter2 {
+      width: 50%;
+    }        
+}
+
+@media only screen and (max-width: 786px) {
+  .Filter {
+    height: 120px;
+    text-align: center;
+  }  
+  #Filter1 {
+    width: 100%;
+    margin-top: 10px;
+  }   
+  #Filter2 {
+    width: 100%;
+    margin-top: 10px;    
+  }        
+  .Statusbutton {
+    margin-top: 20px;   
+  }  
+  .Iconsvg {
+    margin-top: 20px;   
+  } 
+}
+
+/* styling iconbuttons  */
+
+.Iconsvg img {
+  width: 30px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.Statusbutton {
+  width: 40px;
+  height: 30px;
+  text-align: center;  
+}
+
+
+/* #################*/
+/* Devices Component */
+/* #################*/
+
+.Devices {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: #252525;
+  min-height: 100vh;
+}
+
+.Singledevice {
+  width: 220px;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 2px;
+  text-align: center;
+  background-color: yellow;
+}
+.Singledevice img {
+  width: 150px;
+  height: 150px;
+ 
+}
+
+.Singledevicelink {
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+/* Devices Overlay appears by OnClick */
+
+.Singledeviceoverlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other */
+}

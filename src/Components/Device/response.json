@@ -1,0 +1,70 @@
+
+{
+    "heating": [
+        {
+            "deviceType": "heater",
+            "name": "Schmitz XL-2",
+            "temperature": 34,
+            "uuid": "911d420b-da01-4a0e-ba83-e9cc6c45e79a",
+            "vendor": "Schmitz",
+            "state": 1
+        },
+        {
+            "deviceType": "heater",
+            "name": "VL Green Heating",
+            "temperature": 20,
+            "uuid": "b0f14c75-ffbc-4602-acb2-382cbacb357d",
+            "vendor": "Vaillant",
+            "state": 0
+        }
+    ],
+    "smartLights": [
+        {
+            "deviceType": "light",
+            "description": "This is a smart light provided by Philips",
+            "intensity": 31,
+            "name": "Philips Hue L",
+            "state": 1,
+            "uuid": "839d11bb-fb2e-4adb-afdf-8e121e1bdd5b",
+            "vendor": "Philips"
+        },
+        {
+            "deviceType": "light",
+            "description": "Smart lighting is the good way which enables to minimize and save light by allowing the householder to control remotely cooling and heating, lighting, and the control of appliances.[2] This ability saves energy and provides a level of comfort and convenience. From outside the traditional lighting industry, the future success of lighting will require involvement of a number of stakeholders and stakeholder communities.[3] The concept of smart lighting also involves utilizing natural light from the sun to reduce the use of man-made lighting, and the simple concept of people turning off lighting when they leave a room. Die gesamte Beleuchtungsanlage im Blick und im Griff Beim Light Monitoring erhalten die Anwender über LiveLink Zugriff auf alle relevanten Betriebsdaten der Beleuchtungslösung. Anhand der umfassenden Informationen können nicht nur Energieverbräuche optimiert werden. Auch die Wartungszyklen lassen sich an den realen Bedarf anpassen, da das System einen Wartungsbedarf bereits im Vorfeld erkennt und auf Wunsch proaktiv an die zuständige Servicestelle meldet. Diese so genannte Predictive Maintenance ist deutlich weniger aufwändig und damit auch kostengünstiger als starre Wartungsintervalle. Der Installations-Fachbetrieb erhält so zusätzlich die Möglichkeit, durch neue Serviceangebote Mehrwerte für seine Kunden zu generieren.",
+            "intensity": 4,
+            "name": "Philips Hue S",
+            "state": 0,
+            "uuid": "461a9fde-a09a-4564-87ee-bf73738c0d82",
+            "vendor": "Philips"
+        },
+        {
+            "deviceType": "light",
+            "description": "Die gesamte Beleuchtungsanlage im Blick und im Griff Beim Light Monitoring erhalten die Anwender über LiveLink Zugriff auf alle relevanten Betriebsdaten der Beleuchtungslösung. Anhand der umfassenden Informationen können nicht nur Energieverbräuche optimiert werden. Auch die Wartungszyklen lassen sich an den realen Bedarf anpassen, da das System einen Wartungsbedarf bereits im Vorfeld erkennt und auf Wunsch proaktiv an die zuständige Servicestelle meldet. Diese so genannte Predictive Maintenance ist deutlich weniger aufwändig und damit auch kostengünstiger als starre Wartungsintervalle. Der Installations-Fachbetrieb erhält so zusätzlich die Möglichkeit, durch neue Serviceangebote Mehrwerte für seine Kunden zu generieren.",
+            "intensity": 90,
+            "name": "Lightwave Chromatic",
+            "state": 1,
+            "uuid": "a3b4c1d4-8868-4e08-a545-ba6b3a916fd9",
+            "vendor": "Lightwave"
+        }
+    ],
+    "smartPlugs": [
+        {
+            "deviceType": "plug",
+            "name": "X-BOX One",
+            "state": 0,
+            "uuid": "ff7f9f29-7c01-466b-9680-427438f7c3dc"
+        },
+        {
+            "deviceType": "plug",
+            "name": "Coffee machine",
+            "state": 1,
+            "uuid": "75a3d746-09bf-428d-bd73-8ad9403dbf58"
+        },
+        {
+            "deviceType": "plug",
+            "name": "Living Room Fan",
+            "state": 1,
+            "uuid": "b84cf11b-e54a-4a27-8b8b-d167e1976155"
+        }
+    ]
+}
